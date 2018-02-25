@@ -56,4 +56,59 @@ nav ul li a {
 	height: 600px;
 }
 
+/*----------------------------
+	menu
+-----------------------------*/
+#menu {
+	margin-top: -20px;
+}
 
+.content-top {
+	background: #4A4A4A;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+}
+
+ul.nav-tabs {
+	font-size: 30px;
+	font-family: 'Raleway';
+	text-align: center;
+	width: 50%;
+	display: block;
+	margin: auto;
+	border-bottom: none;
+}
+
+ul.nav-tabs a {
+	color: white;
+}
+
+.active a {
+	border: none !important;
+	background: none !important;
+	color: white !important;
+	border-bottom: #dcc solid 3px !important;
+}
+
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+}
+
+.nav-tabs {
+    text-align:center;
+}
+
+.menu-listing {
+	max-width: 700px;
+	margin: auto;
+	display: block;
+}
+
+#menu svg {
+	display: block;
+	margin: auto;
+	height: 100px;
+	width: 100%;
+}
