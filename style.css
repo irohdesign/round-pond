@@ -9,16 +9,33 @@ body, html {
 }
 
 /*----------------------------
+	nav
+-----------------------------*/
+
+.navbar-brand svg {
+	height: 50px;
+	position: relative;
+	top: -6px;
+	left: -5px;
+}
+
+/*----------------------------
 	title-display
 -----------------------------*/
 
 
 #title-display {
 	height: 100%;
-	background: red;
+	background: url(img/trees.jpeg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
 	display: table;
 	width: 100%;
 }
 
+#title-display img {
+	height: 600px;
+}
 
 
