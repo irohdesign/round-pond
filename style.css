@@ -1,0 +1,24 @@
+body, html {
+	height: 100%;
+}
+
+.vertical-center-text {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+/*----------------------------
+	title-display
+-----------------------------*/
+
+
+#title-display {
+	height: 100%;
+	background: red;
+	display: table;
+	width: 100%;
+}
+
+
+
