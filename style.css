@@ -16,6 +16,15 @@ p {
 	font-family: raleway;
 }
 
+a {
+	color: white;
+}
+
+a:hover,
+a:active {
+	color: white;
+}
+
 /*----------------------------
 	nav
 -----------------------------*/
@@ -39,11 +48,19 @@ nav ul li a {
 	color: white;
 }
 
+nav ul li a:hover {
+	background: goldenrod !important;
+}
+
 .navbar-brand svg {
 	height: 40px;
 	position: relative;
 	top: -6px;
 	left: -15px;
+}
+
+.icon-bar {
+	background: white;
 }
 
 /*----------------------------
@@ -68,7 +85,7 @@ nav ul li a {
 }
 
 #logo-back {
-	background: rgba(64, 48, 48, 1);
+	background: darkblue;
 	box-sizing: border-box;
 	border: double 15px white;
 	width: 400px;
@@ -137,6 +154,7 @@ ul.nav-tabs a:hover {
 
 .menu-listing {
 	max-width: 700px;
+	max-width: 100%;
 	margin: auto;
 	display: block;
 }
@@ -177,6 +195,7 @@ p#smoothies {
 
 #about img {
 	width: 400px;
+	max-width: 100%;
 	margin: auto auto 50px auto;
 	padding: 10px;
 	border-radius: 5px;
@@ -186,6 +205,7 @@ p#smoothies {
 
 #about .text {
 	width: 600px;
+	max-width: 100%;
 	margin: auto;
 	text-align: center;
 }
@@ -261,6 +281,7 @@ cite {
 	margin: auto;
 	padding: 50px;
 	color: white;
+	text-align: center;
 }
 
 #address #social {
@@ -316,4 +337,33 @@ footer {
 footer h3 {
 	color: white;
 	text-shadow: 3px 1px 0px black;
+}
+
+/*----------------------------
+	media queries
+-----------------------------*/
+
+@media only screen and (max-width: 700px) {
+	#title-display img {
+	height: 300px;
+	margin: auto;
+	display: block;
+}
+
+#logo-back {
+	background: #;
+	box-sizing: border-box;
+	border: double 10px white;
+	width: 320px;
+	height: 320px;
+	border-radius: 100%;
+	margin: auto;
+}
+
+#navbar-collapse {
+	text-align: center;
+	width: 100% !important;
+	padding-bottom: 20px;
+}
+
 }
