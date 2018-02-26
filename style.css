@@ -94,6 +94,17 @@ ul.nav-tabs {
 
 ul.nav-tabs a {
 	color: white;
+	border-bottom: 3px transparent solid;
+}
+
+ul.nav-tabs a:hover {
+	background: transparent;
+	border: none;
+	border-bottom: 3px #dcc solid;
+}
+
+.tab-content {
+	background: #ddd;
 }
 
 .active a {
@@ -123,4 +134,20 @@ ul.nav-tabs a {
 	margin: auto;
 	height: 100px;
 	width: 100%;
+}
+
+#menu h4 {
+	color: red;
+}
+
+.menu-listing {
+	width: 600px;
+	margin: auto;
+	text-align: center;
+	background: white;
+}
+
+p#toast,
+p#smoothies {
+	line-height: 40px;
 }
