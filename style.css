@@ -230,3 +230,69 @@ p#smoothies {
 cite {
 	font-weight: 100;
 }
+
+/*----------------------------
+	contact
+-----------------------------*/
+
+#contact h1 {
+	background: url('img/road-rain.jpg');
+	background-size: cover;
+	background-position: bottom;
+	background-attachment: fixed;
+	color: white;
+	text-shadow:4px 2px 0px black;
+	margin: 0px;
+	text-align: center;
+	padding: 80px 0px;
+}
+
+#contact {
+	text-align: center;
+	background: black;
+	padding: 0px 0px 30px 0px;
+}
+
+#address {
+	padding: 50px;
+	color: white;
+}
+
+#address #social {
+	padding: 20px 0px;
+	margin: 30px auto;
+}
+
+#contact #map {
+	margin: auto;
+	margin-top: 40px;
+	width: 88%;
+}
+
+.bubble {
+	text-align: center;
+	padding: 30px;
+}
+
+i {
+	background: #444;
+	font-size: 30px;
+	padding: 10px 50px;
+	border-radius: 10px;
+}
+
+.fa-facebook:hover {
+	background: #3b5998;
+}
+
+.fa-phone:hover {
+	background: goldenrod;
+}
+
+.fa-envelope:hover {
+	background: goldenrod;
+}
+
+.fa-yelp:hover {
+	background: #af0606;
+}
