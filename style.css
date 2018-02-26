@@ -8,6 +8,14 @@ body, html {
 	text-align: center;
 }
 
+h1, h2, h3, h4 {
+	font-family: Rock Salt;
+}
+
+p {
+	font-family: raleway;
+}
+
 /*----------------------------
 	nav
 -----------------------------*/
@@ -15,6 +23,7 @@ body, html {
 header {
 	background: black;
 	position: fixed;
+	z-index: 2;
 	width: 100%;
 }
 
@@ -141,6 +150,7 @@ ul.nav-tabs a:hover {
 }
 
 .menu-listing {
+	padding: 20px 0px;
 	width: 600px;
 	margin: auto;
 	text-align: center;
@@ -150,4 +160,33 @@ ul.nav-tabs a:hover {
 p#toast,
 p#smoothies {
 	line-height: 40px;
+}
+
+/*----------------------------
+	about
+-----------------------------*/
+#about {
+	padding: 40px 0px;
+	background: black;
+	color: white;
+}
+
+
+#about img {
+	width: 400px;
+	margin: auto auto 50px auto;
+	padding: 10px;
+	border-radius: 5px;
+	background: white;
+	display: block;
+}
+
+#about .text {
+	width: 600px;
+	margin: auto;
+	text-align: center;
+}
+
+#about h1 {
+	margin-bottom: 15px;
 }
