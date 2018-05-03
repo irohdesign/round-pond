@@ -49,7 +49,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	background: goldenrod !important;
+	background: #777 !important;
 }
 
 .navbar-brand svg {
@@ -83,7 +83,7 @@ nav ul li a:hover {
 	display: table;
 	width: 100%;
 	position: relative;
-	top: 10px;
+	top: 10px; /* added 10px down to account for fixed-top nav */
 }
 
 #title-display img {
@@ -230,19 +230,7 @@ p#smoothies {
 -----------------------------*/
 
 #testimonial h1 {
-	background: url('img/dock-view.jpg');
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-ms-background-size: cover;
-	background-position: bottom;
-	-webkit-background-position: bottom;
-	-moz-background-position: bottom;
-	-ms-background-position: bottom;
-	background-attachment: fixed;
-	-webkit-background-attachment: fixed;
-	-ms-background-attachment: fixed;
-	-moz-background-attachment: fixed;
+	background: #570101;
 	color: white;
 	text-shadow:4px 2px 0px black;
 	margin: 0px;
@@ -279,19 +267,7 @@ cite {
 -----------------------------*/
 
 #contact h1 {
-	background: url('img/road-rain.jpg');
-	background-size: cover;
-	-moz-background-size: cover;
-	-webkit-background-size: cover;
-	-ms-background-size: cover;
-	background-position: bottom;
-	-webkit-background-position: bottom;
-	-moz-background-position: bottom;
-	-ms-background-position: bottom;
-	background-attachment: fixed;
-	-webkit-background-attachment: fixed;
-	-moz-background-attachment: fixed;
-	-ms-background-attachment: fixed;
+	background: #570101;
 	color: white;
 	text-shadow:4px 2px 0px black;
 	margin: 0px;
@@ -376,29 +352,44 @@ footer h3 {
 -----------------------------*/
 
 @media only screen and (max-width: 700px) {
-	#title-display img {
-	height: 300px;
+#title-display {
+    background: #093049;
+}
+
+#title-display img {
+	height: 200px;
 	margin: auto;
 	display: block;
 }
 
 #logo-back {
-	background: #;
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	border: double 10px white;
-	width: 320px;
-	height: 320px;
+	width: 220px;
+	height: 220px;
 	border-radius: 100%;
 	margin: auto;
+	background: black;
 }
 
 #navbar-collapse {
-	text-align: center;
 	width: 100% !important;
 	padding-bottom: 20px;
+}
+
+#navbar-collapse ul li {
+    text-align: center;
+    border: solid 1.2px transparent;
+    border-bottom: solid 1.2px white;
+    margin-right: 10%;
+}
+
+.bubble {
+	text-align: center;
+	padding: 10px;
 }
 
 }
