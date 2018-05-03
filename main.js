@@ -5,7 +5,7 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 });
 
 $(document).ready(function() {
-	$("a").on('click', function(event) {
+	$("a.scroll").on('click', function(event) {
 		if(this.hash !== "") {
 			event.preventDefault();
 			
