@@ -5,15 +5,7 @@ $(document).on('click','.navbar-collapse.in',function(e) {
 });
 
 $(document).ready(function() {
-	
-	var scrollLink = $('.scroll');
-	
-	scrollLink.click(function(e) {
-		e.preventDefault();
+	$('.scroll').on('click', function(event) {
 		
-		$('body,html').animate({
-			scrollTop:$(this.hash).offset().top
-		} )
 	})
-	
 })
