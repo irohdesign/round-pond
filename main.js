@@ -3,3 +3,11 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
+
+$(document).ready(function() {
+	
+	var scrollLink = $('.scroll');
+	
+	
+	
+});
