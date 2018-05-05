@@ -353,7 +353,8 @@ footer h3 {
 
 @media only screen and (max-width: 700px) {
 #title-display {
-    background: #570101;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 #title-display img {
