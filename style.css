@@ -122,17 +122,18 @@ nav ul li a:hover {
 }
 
 ul.nav-tabs {
-	font-size: 30px;
+	font-size: 25px;
 	font-family: 'Raleway';
 	text-align: center;
-	width: 50%;
 	display: block;
 	margin: auto;
+	margin-top: 15px;
 	border-bottom: none;
 }
 
 ul.nav-tabs a {
 	color: white;
+	letter-spacing: 1px;
 	border-bottom: 3px transparent solid;
 }
 
@@ -144,7 +145,6 @@ ul.nav-tabs a:hover {
 
 .tab-content {
 	background: #ddd;
-	padding-bottom: 50px;
 }
 
 .active a {
@@ -173,7 +173,7 @@ ul.nav-tabs a:hover {
 #menu svg {
 	display: block;
 	margin: auto;
-	height: 100px;
+	height: 80px;
 	width: 100%;
 }
 
@@ -353,7 +353,7 @@ footer h3 {
 
 @media only screen and (max-width: 700px) {
 #title-display {
-    background: #093049;
+    background: #570101;
 }
 
 #title-display img {
@@ -390,6 +390,23 @@ footer h3 {
 .bubble {
 	text-align: center;
 	padding: 10px;
+}
+
+ul.nav-tabs {
+	width: auto;
+}
+
+ul.nav-tabs a {
+	font-size: 22px;
+	padding: 0px;
+}
+
+.content-top {
+	padding: 10px 0px 5px;
+}
+
+#menu svg {
+	height: 80px;
 }
 
 }
